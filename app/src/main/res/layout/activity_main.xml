@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/main_bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLis"
+            android:text="LinearLayoutHelper （线性布局）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLis"
+            android:text="GridLayoutHelper（网格布局）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_bt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLis"
+            android:text="StaggeredGridLayoutHelper（瀑布流布局）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_bt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLis"
+            android:text="FixLayoutHelper（固定布局）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_bt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLis"
+            android:text="ScrollFixLayoutHelper（可选固定布局）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_bt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLis"
+            android:text="ColumnLayoutHelper（栏格布局）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_bt7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLis"
+            android:text="SingleLayoutHelper（通栏布局）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_bt8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLis"
+            android:text="OnePlusNLayoutHelper（栏格布局）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_bt9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLis"
+            android:text="FloatLayoutHelper（浮动布局）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_bt10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLis"
+            android:text="StickyLayoutHelper（吸边布局）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/main_bt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="clickLis"
+            android:text="All（全部）"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+</ScrollView>
